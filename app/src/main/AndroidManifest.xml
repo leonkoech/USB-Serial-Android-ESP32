@@ -5,6 +5,15 @@
     <uses-feature android:name="android.hardware.usb.host" />
     <application
         tools:targetApi="29" />
+<!--    <uses-sdk android:minSdkVersion="29" />-->
+    <!-- Include an intent filter to detect attached USB devices -->
+<!--    <intent-filter>-->
+<!--        <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />-->
+<!--    </intent-filter>-->
+
+    <!-- Specify the resource file for USB device filtering -->
+<!--    <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"-->
+<!--        android:resource="@xml/device_filter" />-->
 <!--    android:allowBackup="true"-->
 <!--    android:dataExtractionRules="@xml/data_extraction_rules"-->
 <!--    android:fullBackupContent="@xml/backup_rules"-->
